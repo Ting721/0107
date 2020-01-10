@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .box {
+            height: 100px;
+            background-color: violet;
+            border: 1px solid white;
+        }
+
+        .timeline-section {
+            position: relative;
+        }
+
+        .timeline-section::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            width: 3px;
+            transform: translateX(-50%);
+            background-color: yellowgreen;
+        }
+
+        .timeline-pointer {
+            position: relative;
+
+        }
+
+        .timeline-pointer::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 3px solid #cf5c5c;
+            transform: translateX(-50%);
+            background-color: yellowgreen;
+            z-index: 1;
+
+        }
+
+        @media(max-width: 576px) {
+
+            .timeline-section::after,
+            .timeline-pointer::after {
+                display: none;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="timeline-section">
+            <div class="row my-3">
+                <div class="col-sm-6">
+                    <h3>這是一個標題</h3>
+                    <p> 能源大賽力道之間這個需求法律責任一家旅遊私人，文化病人不是用於歌詞由於重複氣息激情持續辦法一下子新人一件，年度唯一隨時如此目的組合說著，商品僅供有時候主席住房妹妹版權另外老闆文件大小當初樹林，別人不怕魯蛇幽默騎士旅遊人才，調查看法一種，著名證書群發，轉貼。
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="box">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row timeline-pointer my-3 flex-sm-row-reverse">
+                <div class="col-sm-6">
+                    <h3>這是一個標題</h3>
+                    <p> 能源大賽力道之間這個需求法律責任一家旅遊私人，文化病人不是用於歌詞由於重複氣息激情持續辦法一下子新人一件，年度唯一隨時如此目的組合說著，商品僅供有時候主席住房妹妹版權另外老闆文件大小當初樹林，別人不怕魯蛇幽默騎士旅遊人才，調查看法一種，著名證書群發，轉貼。
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="box">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row timeline-pointer my-3">
+                <div class="col-sm-6">
+                    <h3>這是一個標題</h3>
+                    <p> 能源大賽力道之間這個需求法律責任一家旅遊私人，文化病人不是用於歌詞由於重複氣息激情持續辦法一下子新人一件，年度唯一隨時如此目的組合說著，商品僅供有時候主席住房妹妹版權另外老闆文件大小當初樹林，別人不怕魯蛇幽默騎士旅遊人才，調查看法一種，著名證書群發，轉貼。
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="box">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row timeline-pointer my-3 flex-sm-row-reverse">
+                <div class="col-sm-6">
+                    <h3>這是一個標題</h3>
+                    <p> 能源大賽力道之間這個需求法律責任一家旅遊私人，文化病人不是用於歌詞由於重複氣息激情持續辦法一下子新人一件，年度唯一隨時如此目的組合說著，商品僅供有時候主席住房妹妹版權另外老闆文件大小當初樹林，別人不怕魯蛇幽默騎士旅遊人才，調查看法一種，著名證書群發，轉貼。
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="box">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row timeline-pointer my-3">
+                <div class="col-sm-6">
+                    <h3>這是一個標題</h3>
+                    <p> 能源大賽力道之間這個需求法律責任一家旅遊私人，文化病人不是用於歌詞由於重複氣息激情持續辦法一下子新人一件，年度唯一隨時如此目的組合說著，商品僅供有時候主席住房妹妹版權另外老闆文件大小當初樹林，別人不怕魯蛇幽默騎士旅遊人才，調查看法一種，著名證書群發，轉貼。
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="box">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
